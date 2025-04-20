@@ -17,13 +17,15 @@
 
 **Public API** : Public API는 개방형 API로 모두에게 공개되어있다. Public API 중에서도 접속하는 대상에 대한 제약이 없는 경우를 OpenAPI라고 부른다.
 
+**Partner API** : Partner API는 특정 비즈니스 파트너간의 데이터 공유를 위한 API, 서로에게 공유를 동의하는 특정인들만 사용할 수 있는 경우이다.
+
 ***몇가지 Open API 사이트***
 - 구글 : https://cloud.google.com/apis?hl=ko
 - 공공데이터포털- https://www.data.go.kr/
 - 문화데이터 광장 – https://www.culture.go.kr/data/main/main.do
 - 카카오 : https://developers.kakao.com/tool
 
-**Partner API** : Partner API는 특정 비즈니스 파트너간의 데이터 공유를 위한 API, 서로에게 공유를 동의하는 특정인들만 사용할 수 있는 경우이다.
+
 
 ## API의 장점
 ### 데이터 접속의 표준화와 편의성
