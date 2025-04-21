@@ -12,7 +12,7 @@
 
 </aside>
 
-### API의 종류
+## API의 종류
 **Private API** : Private API는 내부 API로, 기업이나 연구 단체 등에서 자체 제품과 운영 개선을 위해 단체 내부에서만 사용, 따라서 외부에 노출되지 않는다.
 
 **Public API** : Public API는 개방형 API로 모두에게 공개되어있다. Public API 중에서도 접속하는 대상에 대한 제약이 없는 경우를 OpenAPI라고 부른다.
