@@ -11,3 +11,9 @@ REST(Representational State Transfer)의 약자로 자원을 이름으로 구분
 2. 자원에 대한 행위(Verb) : HTTP Method
 3. 자원에 대한 행위의 내용 : HTTP Message Pay Load
 
+### REST의 특징
+1. Server-Client(서버 - 클라이언트 구조)
+2. Stateless(무상태)
+3. Cacheable(캐시 처리 가능)
+4. Layered System(계층화)
+5. Uniform Interface(인터페이스 일관성)
