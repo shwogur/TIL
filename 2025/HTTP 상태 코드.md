@@ -59,3 +59,5 @@
 | 503 Service Unavailable | 서비스 중단 | 서버 과부화 or 점검 | |
 | 504 Gateway Timeout | 게이트웨이 시간 초과 | 프록시 연결 지원 | |
 | 505 HTTP Version Not Supported | 지원 안 함 | 버전 문제 | |
+
+`5xx 코드는 대부분 오류 정보 누출 가능성 -> 해킹 시 중요한 단서`
