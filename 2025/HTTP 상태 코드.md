@@ -49,3 +49,13 @@
 | 429 Too Many Requests | 요청 과다 | 과도한 트래픽 | 자동화 툴, 봇 공격 의심 가능 |
 
 `4xx 코드는 공격자가 정보를 탐색하거나, 우회 시도할 때 자주 보임`
+
+### 5xx : 서버 측 오류(취약점 노출 가능)
+| 코드 | 의미 | 설명 | 보안 포인트 |
+| -- | -- | -- | -- |
+| 500 Internal Server Error | 내부 오류 | 서버 코드 오류 | 취약한 서버일 가능성 |
+| 501 Not Implemented | 구현되지 않음 | 메서드 등 미지원 | 서버 기능 노출 가능 |
+| 502 Bad Gateway | 게이트웨어 오류 | 프록시/게이트웨어 문제 | |
+| 503 Service Unavailable | 서비스 중단 | 서버 과부화 or 점검 | |
+| 504 Gateway Timeout | 게이트웨이 시간 초과 | 프록시 연결 지원 | |
+| 505 HTTP Version Not Supported | 지원 안 함 | 버전 문제 | |
