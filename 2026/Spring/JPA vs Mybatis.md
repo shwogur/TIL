@@ -5,7 +5,6 @@
 데이터 베이스 접속을 편하게 사용하기 위해 **SQL Mapper** 기술과, **ORM(Object Relational Mapping)** 기술을 제공한다. 둘 다 DB와의 연동, 저장을 위한 기술이며, SQL Mapper는 **‘개발자가 작성한 SQL 실행 결과를 객체에 매핑’**시켜주는 프레임워크이며, ORM은 객체와 DB의 데이터를 **‘자동으로 매핑’**시켜주는 프레임워크를 말한다.
 
 **SQL Mapper** 기술을 제공하는 것이 `‘MyBatis’`이며, **ORM** 기술을 제공하는 것이 `‘JPA(Java Persistence Api)’`이다. 두 가지 기술은 모두 데이터를 관계형 데이터베이스에 저장, 즉 영속화(Persistence) 시킨다는 측면에서는 동일하지만, 서로 다른 접근 방식을 채택하고 있다.
-https://www.elancer.co.kr/blog/detail/231
 
 ## MyBatis란?
 `MyBatis 프레임워크`는 반복적인 **JDBC 프로그래밍을 단순화하여, 불필요한 Boilerplate 코드를 제거하고, Java 소스코드에서 SQL 문을 분리하여 별도의 XML 파일로 저장하고, 이 둘을 서로 연결시켜주는 기능**을 제공한다.
