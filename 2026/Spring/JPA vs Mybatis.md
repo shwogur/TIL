@@ -8,4 +8,4 @@
 https://www.elancer.co.kr/blog/detail/231
 
 ## MyBatis란?
-`MyBatis 프레임워크`는 반복적인 **JDBC 프로그래밍을 단순화하여, 불필요한 Boilerplate 코드를 제거하고, Java 소스코드에서 SQL 문을 분리하여 별도의 XML 파일로 저장하고, 이 둘을 서로 연결시켜주는 기능을 제공**한다.
+`MyBatis 프레임워크`는 반복적인 **JDBC 프로그래밍을 단순화하여, 불필요한 Boilerplate 코드를 제거하고, Java 소스코드에서 SQL 문을 분리하여 별도의 XML 파일로 저장하고, 이 둘을 서로 연결시켜주는 기능**을 제공한다.
