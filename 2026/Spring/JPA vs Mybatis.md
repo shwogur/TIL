@@ -8,3 +8,12 @@
 
 ## MyBatis란?
 `MyBatis 프레임워크`는 반복적인 **JDBC 프로그래밍을 단순화하여, 불필요한 Boilerplate 코드를 제거하고, Java 소스코드에서 SQL 문을 분리하여 별도의 XML 파일로 저장하고, 이 둘을 서로 연결시켜주는 기능**을 제공한다.
+
+## MyBatis의 특징
+
+### Java 코드와 SQL 매핑
+MyBatis를 사용하면, MyBatis 내부에서 그러한 Boilerplate 코드가 구현되어 있고, MyBatis에서 Java 메소드와 SQL 간에 매핑을 시켜서 `개발자는 Java 메소드 선언과 SQL 문만 만들면 MyBatis가 자동으로 그 둘 간을 연결시켜 주게 된다.`
+
+SQL 문장이 Java 코드 내에 들어가 있어서 수정하기도 힘들고, 보기도 힘들었는데, **SQL 문을 별도로 Java 코드에서 분리해두어서 관리가 편하게 하였으며**, **분리된 SQL 문을 MyBatis가 찾아서 실행해 주는 기능**을 한다.
+
+`MyBatis 프레임워크`는 반복적인 JDBC 프로그래밍을 단순화하여, **불필요한 Boilerplate 코드를 제거**하고, **Java 소스코드에서 SQL 문을 분리하여 별도의 XML 파일로 저장**하고, 이 둘을 **서로 연결시켜주는 기능**을 제공합니다.
