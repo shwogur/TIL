@@ -36,3 +36,6 @@ title 파라미터 없이 호출이 되는 경우엔, 아래와 같이 title 조
 - `SELECT * FROM BLOG WHERE state = ‘active’`
 
 JPA는 이보다 한발 더 나아가서 `SQL 문까지 자동으로 생성해 주고, DB 데이터와 Java 객체를 매핑 시켜주는 기술`이다. SQL 문장 작성이 필요 없으니 MyBatis보다 한 단계 더 자동화되어 더 편리함과 반복작업을 없애준다.
+
+## JPA(Java Persistence API)란?
+`JPA(Java Persistence API)`는 **Java 객체와 관계형 데이터베이스 간의 매핑을 위한 API다.** JPA는 ORM(Object-Relational Mapping)을 구현하는 자바 표준 스펙으로, 개발자가 객체지향 프로그래밍 언어에서 사용하는 객체 모델과 관계형 데이터베이스의 테이블 간의 매핑을 자동으로 처리해 준다.
