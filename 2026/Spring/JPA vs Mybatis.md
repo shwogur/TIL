@@ -59,3 +59,5 @@ MyBatis와 다르게 SQL 문의 작성이 불필요하며 ORM 내부적으로 ja
 
 즉, Java 개발자는 jpa.persist(member)라고 사용하면, Insert SQL 문이 자동으로 생성되어 DB에 저장이 된다.
 ![image](/image/JPA특징.jpg)
+
+**MyBatis와 JPA 모두 DB를 사용할 때 번거로운 반복작업을 없애준다.** MyBatis는 SQL 문을 Java와 분리하여 별도 파일로 관리할 수 있어서, SQL 개발과 유지 보수에 용이하고, JPA는 SQL 문을 아예 만들 필요가 없기 때문에 더욱 자동화되고 반복작업을 더욱 줄여준다.
